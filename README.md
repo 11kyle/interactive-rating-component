@@ -15,7 +15,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Author](#author)
 
 ## Overview
-This is my first project on Frontend Mentor so I'm going with a newbie project that I like, the qr-code-component. I want to over estimate on my first project because I think that it's better than under estimating. I also want to be close on my estimation because I feel like that is very important in a professional environment. I also want to note that I'm currently not using the Pro version so I don't have access to the Figma files but I do want to incorporate a designing and project plan phase in my estimate.
+Third project down and picking up speed! This project has two display states; a rate this state and an is rated state.
 
 - Planning: 0.5 hours
 - Analysis: 0.5 hours
@@ -54,13 +54,18 @@ Total: 3 hours
 
 ### What I learned
 
-I learned about hsl colors. Before this I had only worked with hex and rgb (rgba) colors. I gained more experience with custom theming in TailwindCSS but would like to learn more. It had been awhile since I deployed a project with GitHub Pages so it was good to quickly pick up that knowledge again. I'm getting much faster with TailwindCSS especially with flex, box model and layouts in general.
+I learned that if the app crashes due to the tailwind.config.js file, I must stop and restart the dev server after the fix. Page refresh does not clear the error. I also learned how to design a label/input type radio pair. This is really useful for rating applications or other forms that use radio or checkbox inputs. Lastly, I learned about the peer class in TailwindCSS. The ```peer``` class is place on the element before the working element. In this project it looks like this:
 
-I'd like to point out how impressed I am with the design of this project and others I see on Frontend Mentor. These are great for developers who want to build a beautiful portfolio but struggle to think of projects and the design of those projects.
+```
+<label className="peer"></label>
+<input className="peer-checked:bg-blue-500 type="radio" Value="1" />
+```
+
+One more thing! I knew this before but forgot. You can place the submit button outside of the form. If you do this, you will need to add the ```form``` attribute to the button and a matching ```id``` to the form element.
 
 ### Continued development
 
-I would like to spend more time using Figma and calculation project plans. 
+I want to make both state views the same height and width. This will create a better experience for the user on render.
 
 ### Useful resources
 

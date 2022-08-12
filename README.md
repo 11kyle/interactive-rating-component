@@ -20,7 +20,7 @@ This is my first project on Frontend Mentor so I'm going with a newbie project t
 - Planning: 0.5 hours
 - Analysis: 0.5 hours
 - Design: 0 (Already completed)
-- Development: 1 hour
+- Development: 2 hour
 - Testing: 1 hour
 - Maintenance: 0 (Not in the scope)
 
@@ -28,12 +28,12 @@ Total: 3 hours
 
 ### Screenshot
 
-![](./qr-code-component-main-solution.png)
+![](./interactive-rating-component-solution.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/11kyle/qr-code-component-main)
-- Live Site URL: [Add live site URL here](https://11kyle.github.io/qr-code-component-main/)
+- Solution URL: [Add solution URL here](https://github.com/11kyle/interactive-rating-component)
+- Live Site URL: [Add live site URL here](https://11kyle.github.io/interactive-rating-component)
 
 ## My process
 

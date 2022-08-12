@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import star from '../assets/icon-star.svg';
-import thankYou from '../assets/illustration-thank-you.svg';
+import thankYou from '../assets/thank-you.svg';
 
 export default function InteractiveRating() {
   const [rating, setRating] = useState(0);
